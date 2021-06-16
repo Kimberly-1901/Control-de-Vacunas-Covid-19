@@ -1,0 +1,82 @@
+@media (max-width:1790px) {
+    .search{
+        margin-left: 235px;
+    }
+}
+@media (max-width:1640px) {
+    .search{
+        margin-left: 150px;
+    }    
+}
+@media (max-width:1550px) {
+    .search{
+        margin-left: 115px;
+        width: 1288px;
+    }    
+}
+@media (max-width:1490px) {
+    .search{
+        margin-left: 115px;
+        width: 1200px;
+    }    
+    .contentInputs1 .inputs{
+        width: 500px;
+    }
+}
+@media (max-width:1395px) {
+    .search{
+        margin-left: 73px;
+        width: 1200px;
+        margin-top: 108px;
+    }
+}
+@media (max-width:1353px) {
+    .search{
+        margin-left: 35px;
+        width: 1200px;
+        margin-top: 108px;
+    }
+}
+@media (max-width:1353px) {
+    .search{
+        margin-left: 35px;
+        width: 1140 px;
+        margin-top: 108px;
+    }
+}
+@media (max-width:1300px) {
+    .search{
+        margin-left: 35px;
+        width: 1140px;
+        margin-top: 108px;
+    } 
+    #datosMedicos input[type="submit"]{
+        margin-left: 530px;
+    }
+    .sidebar li:last-child{
+        display: block;
+        margin-top: 0px;
+    }
+    #doc{
+        margin: 30px;
+        width: 125px;
+    }
+}
+@media (max-width:1200px) {
+    .search{
+        margin-left: 0px;
+        width: 1140px;
+        margin-top: 108px;
+    } 
+    #datosMedicos input[type="submit"]{
+        margin-left: 530px;
+    }
+    .sidebar li:last-child{
+        display: block;
+        margin-top: 0px;
+    }
+    #doc{
+        margin: 30px;
+        width: 125px;
+    }
+}

@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url(fonts/BebasNeue.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WebSymbolsRegular";
+  src: url(fonts/websymbols-regular-webfont.eot);
+  src: url(fonts/websymbols-regular-webfont.eot?#iefix) format('embedded-opentype'),
+    url(fonts/websymbols-regular-webfont.woff) format('woff'),
+    url(fonts/websymbols-regular-webfont.ttf) format('truetype'),
+    url(fonts/websymbols-regular-webfont.svg#WebSymbolsRegular) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/FondoLogin.jpg");
+  background-repeat: no-repeat;
+  background-position: center 1px;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 25rem;
+}
+
+body, input, boton {
+  font-family: 'BebasNeue', sans-serif;
+}
+
+.alert-dismissible .close {
+  position: absolute;
+  top: -11px;
+  right: -11px;
+  padding: .75rem 1.25rem;
+  color: inherit;
+}
+
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 2rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  width: 300px;
+}
+
+.main_div {
+  width: 300px;
+  background: transparent;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top:200px;
+  margin-left:400px;
+}
+.main_div .title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.main_div .social_icons{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.social_icons a{
+  display: block;
+  height: 45px;
+  width: 100%;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+.social_icons a span{
+  margin-left: 5px;
+  font-size: 18px;
+}
+.social_icons a:first-child{
+  margin-right: 5px;
+  background: #4267B2;
+}
+.social_icons a:first-child:hover{
+  background: #375695;
+}
+.social_icons a:last-child{
+  margin-left: 5px;
+  background: #1DA1F2;
+}
+.social_icons a:last-child:hover{
+  background: #0d8bd9;
+}
+form {
+  margin-top: -14px;
+}
+h2{
+font-weight: normal;
+
+}
+form .input_box{
+  height: 45px;
+  width: 470px;
+  position: relative;
+  margin-top: 15px;
+}
+.input_box input {
+  height: 100%;
+  width: 64%;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 40px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.input_box input:focus{
+  border-color: rgb(61, 147, 175);
+}
+.input_box .icon{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: grey;
+}
+form .option_div{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.option_div .check_box{
+  display: flex;
+  align-items: center;
+}
+.option_div span{
+  margin-left: 5px;
+  font-size: 16px;
+  color: #333;
+}
+.option_div .forget_div a{
+  font-size: 16px;
+  color: rgb(61, 147, 175);
+}
+.boton input{
+  padding-left: 0;
+  background: rgb(61, 147, 175);
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  width: 300px;
+}
+.boton input:hover{
+  background: rgb(61, 147, 175);
+}
+form .sign_up{
+  text-align: center;
+  margin-top: 25px;
+}
+.sign_up a{
+  color: rgb(61, 147, 175);
+}
+form a{
+  text-decoration: none;
+}
+form a:hover{
+  text-decoration: underline;
+}
+
+#radioCaja div{
+  display: inline-block;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}

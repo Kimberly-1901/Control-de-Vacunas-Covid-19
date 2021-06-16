@@ -1,0 +1,194 @@
+@media(max-width: 1700px){
+
+    #Seccion2 {
+        width: 394px;
+        margin-left: 35px;
+    }
+    #Seccion3{
+        margin-left: 75px;
+    }
+    #Seccion4{
+        margin-left: -50px;
+    }
+}
+@media (max-width:1540px) {
+    .search{
+        margin-left: 150px;
+        width: 1200px;
+    }
+    .contentInputs{
+        margin-left: 150px;
+    }
+    #botones{
+        margin-left: 460px;
+    }
+    .search #buscar{
+        margin-left: 150px;
+    }
+    .contentInputs .inputs{
+        width: 560px;
+    }
+    .graficas #Seccion2{
+        width: 400px;
+    }
+}
+
+@media (max-width:1457px) {
+    .search{
+        margin-left: 138px;
+        width: 1128px;
+    }
+    .contentInputs{
+        margin-left: 135px;
+    }
+    #botones{
+        margin-left: 460px;
+    }
+    .search #buscar{
+        margin-left: 150px;
+    }
+    .contentInputs .inputs{
+        width: 520px;
+    }
+    .graficas #Seccion2{
+        margin-left: 500px;
+    }
+    .graficas #Seccion3{
+        margin-left: 450px;
+    }
+    .graficas #Seccion4{
+        margin-left: 420px;
+    }
+
+    
+
+    
+
+}
+
+@media (max-width:1350px) {
+    .search{
+        margin-left: 120px;
+        width: 1103px;
+    }
+    .contentInputs{
+        margin-left: 85px;
+    }
+    #botones{
+        margin-left: 460px;
+    }
+    .search #buscar{
+        margin-left: 150px;
+    }
+    .contentInputs .inputs{
+        width: 520px;
+    }
+    .graficas #Seccion2{
+        margin-left: 460px;
+    }
+    .graficas #Seccion3{
+        margin-left: 450px;
+    }
+    .graficas #Seccion4{
+        margin-left: 420px;
+    }
+}
+@media (max-width:1305px) {
+    .search{
+        margin-left: 127px;
+        width: 1039px;
+    }
+    .contentInputs{
+        margin-left: 85px;
+    }
+    #botones{
+        margin-left: 420px;
+    }
+    .search #buscar{
+        margin-left: 40px;
+    }
+    .contentInputs .inputs{
+        width: 470px;
+    }
+    .sidebar li:last-child{
+        display: block;
+        margin-top: 0px;
+    }
+    #doc{
+        margin: 30px;
+        width: 125px;
+    }
+    .graficas #Seccion4{
+        margin-left: 420px;
+      }
+    .graficas #Seccion2{
+        margin-left: 200px;
+    }
+    .graficas #Seccion3{
+        margin-left: 100px;
+    }
+}
+@media (max-width:1250px) {
+    .search{
+        margin-left: 135px;
+        width: 973px;
+    }
+    .contentInputs{
+        margin-left: 85px;
+    }
+    #botones{
+        margin-left: 460px;
+    }
+    .search #buscar{
+        margin-left: 13px;
+    }
+    .contentInputs .inputs{
+        width: 470px;
+    }
+    .sidebar li:last-child{
+        display: block;
+        margin-top: 0px;
+    }
+    #doc{
+        margin: 30px;
+        width: 125px;
+    }
+    .graficas #Seccion4{
+        margin-left: 420px;
+      }
+      .graficas #Seccion3{
+        margin-left: 420px;
+ }
+    .graficas #Seccion2{
+        margin-left: 420px;
+    }
+   
+}
+
+@media (max-width:1200px) {
+    .search{
+        margin-left: 108px;
+        width: 967px;
+    }
+    .contentInputs{
+        margin-left: 85px;
+    }
+    #botones{
+        margin-left: 460px;
+    }
+    .search #buscar{
+        margin-left: 13px;
+    }
+    .contentInputs .inputs{
+        width: 420px;
+    }
+    .sidebar li:last-child{
+        display: block;
+        margin-top: 0px;
+    }
+    #doc{
+        margin: 30px;
+        width: 125px;
+    }
+  
+}

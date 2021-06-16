@@ -1,0 +1,436 @@
+
+
+
+/******************************************
+    File Name: custom.css
+/****************************************** */
+
+/** ADD YOUR AWESOME CODES HERE **/
+::-webkit-input-placeholder { /* Chrome */
+  color: #333;opacity:1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #333;opacity:1;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #333;opacity:1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #333;opacity:1;
+}
+::-webkit-textarea-placeholder { /* Chrome */
+  color: #333;opacity:1;
+}
+:-ms-textarea-placeholder { /* IE 10+ */
+  color: #333;opacity:1;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700');
+* {font-family: 'Poppins', sans-serif;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Poppins', sans-serif;}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#preloader {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #39b49a;
+    z-index: 11000;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home.first-section {
+    position: relative;
+    min-height: 650px;
+    margin-top: 0px;
+}
+
+
+#home.first-section {
+    position: relative;
+    min-height: 650px;
+}
+#home.first-section::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0);
+}
+.text-contant {
+    float: left;
+    width: 80%;
+    margin: 5px 10% 0;
+    padding: 40px 0 40px;
+    border-radius: 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}	
+.text-contant h2 a, .text-contant h2 a:hover, .text-contant h2 a:focus {
+    color: #222;
+    opacity: 1;
+}
+.icon {
+    background: #fff;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #39b49b 3px;
+}
+.icon img {
+    width: 50px;
+    margin-top: 2px;
+}
+.text-contant .center {
+    float: left;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.info-inner span.icontop i.fa-clock-o {
+    font-size: 25px;
+}
+.info-inner:hover span.icontop,.info-inner:focus span.icontop {
+    border-radius: 100%;
+    background: #39b49b;
+}
+.typewrite {
+    font-size: 60px;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    text-shadow: 4px 3px 0 rgba(0,0,0,0.0);
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+body.clinic_version .first-section h2 {
+    color: #1f1f1f;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.padding-section {
+	padding:75px 0;
+}
+.service-time {
+    float: left;
+    width: 100%;
+    min-height: 350px;
+    margin-top: -350px;
+    padding: 50px;
+    color: #fff;
+    position: relative;
+}
+.info-icon {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 75px;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.service-time h3 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: -5px 0 15px 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: none;
+}
+.service-time p {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+.service-time ul {
+    margin: 0;
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.service-time ul li {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: dashed 1px #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+
+
+.service-time.middle::before {
+
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    background: transparent;
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+    border-bottom: solid transparent 65px;
+    border-right: solid #a0cff7 70px;
+    left: -70px;
+
+}
+
+.service-time.middle::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    background: transparent;
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+    border-bottom: solid transparent 65px;
+    border-left: solid #a0cff7 70px;
+    right: -70px;
+}
+
+.service-time.one {
+    position: relative;
+    z-index: 1;
+}
+.heading {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+.heading h2 {
+    font-size: 35px;
+    text-transform: none;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #333;
+    margin: 5px 0;
+    padding: 0;
+    position: relative;
+}
+.icon-logo img {
+    width: 60px;
+}	
+.heading h2::after {
+    width: 50px;
+    height: 4px;
+    background: #39b49b;
+    content: "";
+    display: block;
+    margin: 10px auto 0;
+}
+body.clinic_version .first-section {
+   padding: 1em 0;
+}
+.message-box .lead {
+    padding-top: 10px;
+    font-size: 16px;
+    font-style: normal;
+    color: #999;
+    padding-bottom: 0;
+    font-weight: 400;
+}
+body.clinic_version .section {
+    padding: 90px 0;
+    float: left;
+    width: 100%;
+}
+.message-box p {
+    margin-bottom: 15px;
+}
+.service-widget h3 {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 12px 0 12px;
+    margin: 0;
+    background: #157fda;
+    text-align: center;
+}
+hr.hr1 {
+    position: relative;
+    margin: 60px 0;
+    border: 1px dashed #f0f0f0;
+}
+.services {
+    width: 100%;
+    background: linear-gradient(to right, #1d86df 0%, #39b49a 100%);
+    padding: 75px 0;
+}
+.services {
+    width: 100%;
+    background: url('../images/service-bg.png');
+    padding: 75px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	float:left;
+	width:100%;
+}
+.serv {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 25px 0px;
+}	
+.heading h2.white {
+    color: #fff;
+}
+.serv h4 {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    padding: 0;
+    margin: 5px 0 0;
+    float: left;
+    width: 100%;
+}
+.serv p {
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.icon-service {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.icon-service img {
+    width: 60px;
+}
+
+
+.sidebar {
+    position: fixed !important;
+    z-index: 1 !important;
+    left: -250px !important;
+    width: 250px !important;
+    height: 100% !important;
+    background: #042331 !important;
+    transition: all .5s ease !important;
+  }
+  .sidebar header {
+    font-size: 22px !important; 
+    color: white !important;
+    line-height: 70px !important;
+    text-align: center !important;
+    background: #063146 !important;
+    user-select: none !important;
+  }
+  .sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-top: 1px solid rgba(255,255,255,.1);
+    transition: .4s;
+  }
+  
+  ul li:hover a{
+    padding-left: 50px;
+  }
+  .sidebar ul a i{
+    margin-right: 16px;
+  }
+  #check{
+    display: none;
+  }
+  label #btn,label #cancel{
+    position: absolute;
+    background: #042331;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+  }
+  label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all .5s ease;
+  }
+  #check:checked ~ .sidebar{
+    left: 0;
+  }
+  #check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+  }
+  #check:checked ~ label #cancel{
+    left: 195px;
+  }
+  #check:checked ~ section{
+    margin-left: 250px;
+  }
+
+
+#cerrar{
+    position: absolute; 
+    z-index: 100;
+    display: block;
+    width: 200px;
+    background-color: #00030542;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    font-size: 28px;
+}

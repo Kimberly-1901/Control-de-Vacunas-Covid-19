@@ -1,0 +1,327 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url(fonts/BebasNeue.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../img/paven.png);
+
+}
+.sidebar {
+  position: fixed;
+  z-index: 1;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #042331;
+  transition: all .5s ease;
+}
+.sidebar header {
+  font-size: 22px !important; 
+  color: white !important;
+  line-height: 70px !important;
+  text-align: center !important;
+  background: #063146 !important;
+  user-select: none !important;
+}
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255,255,255,.1);
+  transition: .4s;
+}
+
+ul li:hover a{
+  padding-left: 50px;
+}
+.sidebar ul a i{
+  margin-right: 16px;
+}
+#check{
+  display: none;
+}
+label #btn,label #cancel{
+  position: absolute;
+  background: #042331;
+  border-radius: 3px;
+  cursor: pointer;
+}
+label #btn{
+  left: 40px;
+  top: 25px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  transition: all .5s;
+}
+label #cancel{
+  z-index: 1111;
+  left: -195px;
+  top: 17px;
+  font-size: 30px;
+  color: #0a5275;
+  padding: 4px 9px;
+  transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel{
+  left: 195px;
+}
+#check:checked ~ section{
+  margin-left: 250px;
+}
+section{
+  background: url(bg.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: all .5s;
+}
+.Cabecera{
+background-color: #0adce8;
+text-align: center;
+min-height: 350px;
+box-sizing: border-box;
+}
+
+.Seccion1{
+
+float: left;
+
+}
+.Seccion2{
+
+float: left;
+
+}
+
+#doc{
+    display: block;
+    margin: 55px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+.search{
+    display: block;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+    width: 1300px;
+    padding: 35px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 255, 0.308);
+    background: rgba(240, 238, 235, 0.966);
+}
+.search #logotipo{
+    width: 65%;
+    margin:0 auto;
+    font-size: 25px;
+    padding: 20px;
+    padding-top: 5px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: "BebasNeue";
+    color: #0a5275;
+    box-shadow: 1px 2px 2px #042331;
+    margin-bottom: 20px;
+    background-color: rgba(250, 235, 215, 0.356);
+}
+.search #logotipo h1{
+    display: block;
+    margin-top: 15px;
+}
+
+.search #buscar{
+    font-family: "BebasNeue";
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-top: 54px;
+    margin-left: 209px;
+}
+.search #buscar input[type = "text"]{
+    padding: 7px;
+    border-radius: 5px;
+    width: 500px;
+    border: 1px solid rgba(0, 0, 255, 0.151);
+}
+.search #buscar input[type="button"]{
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:  15px;
+    border: 1px solid rgba(130, 124, 212, 0.267);
+    color: rgba(255, 255, 255, 0.842);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(43, 13, 211, 0.384);
+    border-radius: 5px;
+}
+.contentInputs{
+    position: absolute;
+    margin: 500px;
+    margin-right: 0px;
+    margin-left: 355px;
+    margin-top: 400px;
+    margin-bottom: 0px;
+    
+}
+.contentInputs h3{
+    font-family: "BebasNeue";
+    letter-spacing: 2px;
+    color: black;
+    
+}
+.contentInputs .inputs{
+    float: left;
+    width: 575px;
+    padding: 20px;
+    margin: 20px;
+}
+.contentInputs .inputs label {
+    font-size: 25px;
+    font-family: "BebasNeue";
+    letter-spacing: 2px;
+    float: left;
+    width: 275px;
+    padding: 20px;
+    padding-left: 0px;
+}
+.contentInputs .inputs input[type = "text"],select{
+    padding: 7px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 255, 0.356);
+}
+#botones{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 480px;
+}
+#botones input[type="button"], #botones input[type="submit"]{  
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border: 1px solid rgba(130, 124, 212, 0.267);
+    color: rgba(255, 255, 255, 0.842);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(43, 13, 211, 0.486);
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.search h3{
+  display: block;
+  font-family: "BebasNeue";
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 1px rgba(43, 13, 211, 0.486);
+  font-weight: normal;
+  font-size: 30px;
+}
+.search .bordebajo{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#forma img{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width:"500px"
+}
+.contentInputs1{
+  margin: 500px;
+  margin-right: 0px;
+  margin-left: -22px;
+  margin-top: -71px;
+  margin-bottom: 0px;
+  
+}
+.contentInputs1 h3{
+  font-family: "BebasNeue";
+  letter-spacing: 2px;
+  color: black;
+  
+}
+.contentInputs1 .inputs{
+  float: left;
+  width: 575px;
+  padding: 20px;
+  margin: 20px;
+}
+.contentInputs1 .inputs label {
+  font-size: 25px;
+  font-family: "BebasNeue";
+  letter-spacing: 2px;
+  float: left;
+  width: 275px;
+  padding: 20px;
+  padding-left: 0px;
+}
+.contentInputs1 .inputs input[type = "text"],.contentInputs1 .inputs input[type = "email"],select{
+  padding: 7px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 255, 0.356);
+}
+#datosMedicos input[type="submit"]{  
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 600px;
+  border: 1px solid rgba(130, 124, 212, 0.267);
+  color: rgba(255, 255, 255, 0.842);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgba(43, 13, 211, 0.486);
+  border-radius: 5px;
+  margin-right: 30px;
+}
+#consultar{
+  margin-top: 400px;
+}
+input[type="submit"]{  
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 600px;
+  border: 1px solid rgba(130, 124, 212, 0.267);
+  color: rgba(255, 255, 255, 0.842);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgba(43, 13, 211, 0.486);
+  border-radius: 5px;
+  margin-right: 30px;
+}
